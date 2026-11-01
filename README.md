@@ -77,7 +77,7 @@ Make sure these files are available before starting the API. See the notebook in
 Clone the repository using its Git URL, or open the project folder directly:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/naveenkumarr1812/Movie_Recommendation_System.git
 cd Movie_Recommendation_System
 ```
 
@@ -170,5 +170,4 @@ Benchmark results depend on the dataset, machine, and network conditions.
 ## Deployment
 
 `render.yaml` configures a Render web service for the FastAPI backend. Configure `TMDB_API_KEY` in the service environment and ensure the required recommendation data files are available to the running service. The Streamlit frontend is a separate application and must be deployed or run separately with its API address pointing to the deployed backend.
-
 

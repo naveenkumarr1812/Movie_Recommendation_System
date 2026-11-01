@@ -85,8 +85,8 @@ movie-recommendation-system/
 ### Steps
 
 ```bash
-# 1. Clone the repository (replace with Naveen Kumar's repository URL)
-git clone <repository-url>
+# 1. Clone the repository
+git clone https://github.com/naveenkumarr1812/Movie_Recommendation_System.git
 cd Movie_Recommendation_System
 
 # 2. Create a virtual environment
